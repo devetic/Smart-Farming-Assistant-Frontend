@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div className="font-bold text-lg mb-2">🌱 Smart Farming</div>
-          <p className="text-sm text-gray-400">AI-напојувана платформа за паметно земјоделство во Македонија и регионот.</p>
+          <p className="text-sm text-gray-400">Вашата АИ платформа за паметно земјоделство во Македонија и регионот.</p>
         </div>
         <div>
           <h4 className="font-semibold mb-3">Производ</h4>
@@ -33,8 +33,8 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto mt-8 pt-6 border-t border-gray-800 flex justify-between text-sm text-gray-500">
-        <span>© 2026 Smart Farming Assistant. Сите права задржани.</span>
+      <div className="container mx-auto mt-8 pt-6 border-t border-gray-800 flex justify-between text-sm text-gray-500 sm: flex flex-col justify-center align-center text-center">
+        <span>© 2026 Smart Farming Assistant.<span className='sm: block'>Сите права задржани.</span></span>
         <span>Made in 🇲🇰 Macedonia</span>
       </div>
     </footer>

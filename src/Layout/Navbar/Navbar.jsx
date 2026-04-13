@@ -16,15 +16,15 @@ function Navbar() {
 
         {/* Nav links - center */}
         <div className="hidden md:flex items-center gap-6 text-sm">
-          <NavLink to="/" className={cls}>Home</NavLink>
-          <NavLink to="/docs" className={cls}>Docs</NavLink>
-          <NavLink to="/pricing" className={cls}>Pricing</NavLink>
-          <NavLink to="/contact" className={cls}>Contact</NavLink>
+          <NavLink to="/" className={cls}>Почетна</NavLink>
+          <NavLink to="/docs" className={cls}>Документација</NavLink>
+          <NavLink to="/pricing" className={cls}>Ценовник</NavLink>
+          <NavLink to="/contact" className={cls}>Контакт</NavLink>
         </div>
 
         {/* Login - right */}
-        <NavLink to="/login" className="hidden md:block py-2 px-5 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">
-          Login
+        <NavLink to="/register" className="bg-green-600 text-white rounded px-4 py-2 text-sm leading-6">
+            Најава
         </NavLink>
 
         {/* Hamburger */}
@@ -35,7 +35,7 @@ function Navbar() {
 
       {/* Mobile */}
       {isOpen && (
-        <div className="md:hidden flex flex-col gap-3 pt-4 text-sm">
+        <div className="md:hidden flex flex-col gap-3 px-6 py-4  text-sm">
           <NavLink to="/" className={cls} onClick={() => setIsOpen(false)}>Home</NavLink>
           <NavLink to="/docs" className={cls} onClick={() => setIsOpen(false)}>Docs</NavLink>
           <NavLink to="/pricing" className={cls} onClick={() => setIsOpen(false)}>Pricing</NavLink>
