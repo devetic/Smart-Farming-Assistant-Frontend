@@ -11,7 +11,7 @@ export const Footer = () => {
         <div>
           <h4 className="font-semibold mb-3">Производ</h4>
           <ul className="flex flex-col gap-2 text-sm text-gray-400">
-            <li><Link to="/overview" className="hover:text-white">Преглед</Link></li>
+            <li><Link to="/" className="hover:text-white">Почетна</Link></li>
             <li><Link to="/about" className="hover:text-white">За апликацијата</Link></li>
             <li><Link to="/docs" className="hover:text-white">Документација</Link></li>
           </ul>

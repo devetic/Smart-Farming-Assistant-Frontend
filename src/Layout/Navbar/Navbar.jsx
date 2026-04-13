@@ -23,7 +23,7 @@ function Navbar() {
         </div>
 
         {/* Login - right */}
-        <NavLink to="/register" className="bg-green-600 text-white rounded px-4 py-2 text-sm leading-6">
+        <NavLink to="/login" className="bg-green-600 text-white rounded px-4 py-2 text-sm leading-6">
             Најава
         </NavLink>
 
