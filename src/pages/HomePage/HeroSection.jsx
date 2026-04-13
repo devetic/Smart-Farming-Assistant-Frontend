@@ -5,7 +5,7 @@ export const HeroSection = () => {
       <section className="bg-cover bg-center bg-no-repeat bg-[url('./assets/images/sf-01.jpg')] bg-dark bg-blend-multiply bg-fixed">
         <div className="container mx-auto flex flex-col gap-8 py-24 px-6 h-1/2 justify-center align-center items-center lg:py-56 lg:px-24">
           <span className="leading-6 text-sm text-green-900 bg-green-50 px-4 py-2 rounded-full w-fit">
-            AI-напојувано земјоделство
+            АИ Асистент за подобро земјоделство.
           </span>
 
           <h1 className="lg:text-4xl sm:text-lg sm:leading-6 font-bold leading-4 text-base text-center">

@@ -5,11 +5,11 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   const cls = ({ isActive }) =>
-    `hover:text-green-600 ${isActive ? 'text-green-600' : 'text-gray-700'}`
+    `hover:text-green-600 ${isActive ? 'text-green-700' : 'text-gray-700'}`
 
   return (
     <nav className="border-b border-gray-200">
-      <div className="container mx-auto px-6 py-6 flex items-center justify-between">
+      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
         <NavLink to="/" className="font-bold text-green-700">🌱 Smart Farming</NavLink>
@@ -18,13 +18,13 @@ function Navbar() {
         <div className="hidden md:flex items-center gap-6 text-sm">
           <NavLink to="/" className={cls}>Почетна</NavLink>
           <NavLink to="/docs" className={cls}>Документација</NavLink>
-          <NavLink to="/pricing" className={cls}>Ценовник</NavLink>
-          <NavLink to="/contact" className={cls}>Контакт</NavLink>
+          {/* <NavLink to="/pricing" className={cls}>Ценовник</NavLink>
+          <NavLink to="/contact" className={cls}>Контакт</NavLink> */}
         </div>
 
         {/* Login - right */}
-        <NavLink to="/login" className="bg-green-600 text-white rounded px-4 py-2 text-sm leading-6">
-            Најава
+        <NavLink to="/login" className="bg-green-700 text-white rounded px-4 py-2 text-sm leading-6">
+            Кон профил
         </NavLink>
 
         {/* Hamburger */}

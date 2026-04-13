@@ -9,6 +9,7 @@ import { PricingPage } from './pages/PricingPage/PricingPage'
 import { LoginPage } from './pages/LoginPage/LoginPage'
 import { ContactPage } from './pages/ContactPage/ContactPage'
 import { PartnershipPage } from './pages/PartnershipPage/PartnershipPage'
+import { RegisterPage } from './pages/LoginPage/RegisterPage'
 
 const router=createBrowserRouter([
     {
@@ -48,6 +49,11 @@ const router=createBrowserRouter([
           path:"/login",
           index:true,
           element:<LoginPage/>
+        },
+        {
+          path:"/register",
+          index:true,
+          element:<RegisterPage/>
         }
       ]
     }
