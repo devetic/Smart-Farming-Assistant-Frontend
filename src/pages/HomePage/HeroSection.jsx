@@ -17,10 +17,10 @@ export const HeroSection = () => {
           </p>
 
           <div className="flex gap-4 text-sm">
-            <Link to="/register" className="bg-green-600 text-white rounded px-4 py-2 text-sm leading-6">
+            <Link to="/register" className="bg-green-600 text-white rounded px-8 pt-3 pb-2 text-base leading-6">
               Регистрација
             </Link>
-            <Link to="/overview" className="border border-white text-white rounded px-4 py-2 text-sm leading-6">
+            <Link to="/login" className="border border-white text-white transition duration-200 rounded px-8 pt-3 pb-2 text-base leading-6 hover:text-green-900 hover:bg-white">
               Демо
             </Link>
           </div>

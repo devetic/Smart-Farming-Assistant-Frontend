@@ -8,10 +8,10 @@ function CTASection() {
         <h2 className="text-3xl text-green-900 font-bold leading-5 ">Стани модерен фармер?</h2>
         <p className="text-lg text-black leading-6">Биди и ти еден од модерни фармери кои веќе користат AI за паметно земјоделство.</p>
         <div className="flex justify-center gap-2">
-          <Link to="/register" className="bg-green-600 text-white leading-6 px-4 py-2 rounded-md hover:bg-green-700 sm: text-sm">
+          <Link to="/register" className="text-base bg-green-600 text-white leading-6 px-4 pt-3 pb-2 rounded hover:bg-green-700">
             Регистрација
           </Link>
-          <Link to="/pricing" className="border border-green-900 text-green-900 leading-6 px-4 py-2 rounded-md hover:bg-green-900 hover:text-white sm:text-sm">
+          <Link to="/pricing" className="text-base border border-green-900 text-green-900 leading-6 px-4 pt-3 pb-2 rounded hover:bg-green-900 hover:text-white">
             Ценовник
           </Link>
         </div>
